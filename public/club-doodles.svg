@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" fill="none">
+  <!-- DEFINE STYLES & PATTERN ELEMENTS -->
+  <style>
+    .doodle-stroke { stroke: #C25E42; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    .doodle-fill { fill: #C25E42; }
+    .doodle-accent { stroke: #8F422D; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    .doodle-dot { fill: #C25E42; }
+    .doodle-light { stroke: #C25E42; stroke-width: 1.5; stroke-dasharray: 3 3; stroke-linecap: round; fill: none; }
+  </style>
+
+  <!-- ================= 1. RADIO CLUB (BEC DHWANI) ================= -->
+  <!-- Vintage Radio Tuner (approx 60, 50) -->
+  <g transform="translate(40, 45) scale(0.95)">
+    <!-- Radio Body -->
+    <rect x="0" y="20" width="80" height="52" rx="8" class="doodle-stroke" />
+    <!-- Handle -->
+    <path d="M22 20 V12 Q40 4 58 12 V20" class="doodle-stroke" />
+    <!-- Antenna -->
+    <path d="M12 20 L2 2" class="doodle-stroke" />
+    <circle cx="2" cy="2" r="2.5" class="doodle-fill" />
+    <!-- Speaker Grill -->
+    <circle cx="26" cy="46" r="16" class="doodle-stroke" />
+    <circle cx="26" cy="46" r="8" class="doodle-stroke" />
+    <circle cx="26" cy="46" r="2.5" class="doodle-fill" />
+    <!-- Dial & Knobs -->
+    <rect x="50" y="32" width="22" height="12" rx="2" class="doodle-stroke" />
+    <line x1="61" y1="32" x2="61" y2="44" class="doodle-stroke" />
+    <circle cx="56" cy="56" r="4" class="doodle-stroke" />
+    <circle cx="67" cy="56" r="4" class="doodle-stroke" />
+    <!-- Sound Waves -->
+    <path d="M86 36 Q94 46 86 56" class="doodle-stroke" />
+    <path d="M92 30 Q104 46 92 62" class="doodle-stroke" />
+    <!-- ON AIR text label -->
+    <text x="40" y="85" font-family="'Courier New', monospace" font-size="8" font-weight="bold" fill="#C25E42" text-anchor="middle" letter-spacing="1">DHWANI • FM</text>
+  </g>
+
+  <!-- ================= 2. SINGING CLUB (BEC SWARA) ================= -->
+  <!-- Microphone & Musical Notes (approx 220, 50) -->
+  <g transform="translate(230, 40) scale(0.95)">
+    <!-- Studio Mic -->
+    <rect x="25" y="10" width="18" height="30" rx="9" class="doodle-stroke" />
+    <!-- Mic Mesh lines -->
+    <line x1="25" y1="20" x2="43" y2="20" class="doodle-stroke" />
+    <line x1="25" y1="26" x2="43" y2="26" class="doodle-stroke" />
+    <line x1="34" y1="10" x2="34" y2="40" class="doodle-stroke" />
+    <!-- Mic Stand U-bracket -->
+    <path d="M19 25 C19 46 49 46 49 25" class="doodle-stroke" />
+    <line x1="34" y1="46" x2="34" y2="60" class="doodle-stroke" />
+    <path d="M22 60 L46 60" class="doodle-stroke" />
+    <!-- Musical Clef & Notes -->
+    <!-- Double Note -->
+    <circle cx="64" cy="24" r="4" class="doodle-fill" />
+    <circle cx="78" cy="18" r="4" class="doodle-fill" />
+    <line x1="68" y1="24" x2="68" y2="8" class="doodle-stroke" />
+    <line x1="82" y1="18" x2="82" y2="2" class="doodle-stroke" />
+    <line x1="68" y1="8" x2="82" y2="2" class="doodle-stroke" stroke-width="3" />
+    <!-- Single Note -->
+    <circle cx="6" cy="38" r="4" class="doodle-fill" />
+    <line x1="10" y1="38" x2="10" y2="18" class="doodle-stroke" />
+    <path d="M10 18 Q16 16 14 24" class="doodle-stroke" />
+    <!-- Acoustic Guitar Silhouette Small -->
+    <path d="M82 38 C76 44 76 50 82 56 C88 62 82 72 74 72 C64 72 62 60 70 52 C74 48 74 44 70 40 Z" class="doodle-stroke" />
+    <text x="44" y="80" font-family="'Courier New', monospace" font-size="8" font-weight="bold" fill="#C25E42" text-anchor="middle" letter-spacing="1">SWARA • VOCAL</text>
+  </g>
+
+  <!-- ================= 3. CODING CLUB (BEC DEVS) ================= -->
+  <!-- Laptop, Code Brackets </>, Terminal (approx 420, 50) -->
+  <g transform="translate(420, 45) scale(0.95)">
+    <!-- Laptop Screen -->
+    <rect x="15" y="10" width="70" height="46" rx="4" class="doodle-stroke" />
+    <!-- Screen Header dots -->
+    <circle cx="23" cy="18" r="2" class="doodle-fill" />
+    <circle cx="29" cy="18" r="2" class="doodle-fill" />
+    <circle cx="35" cy="18" r="2" class="doodle-fill" />
+    <line x1="15" y1="23" x2="85" y2="23" class="doodle-stroke" />
+    <!-- Code on Screen: </> -->
+    <path d="M35 34 L27 40 L35 46" class="doodle-stroke" />
+    <path d="M65 34 L73 40 L65 46" class="doodle-stroke" />
+    <line x1="53" y1="30" x2="47" y2="50" class="doodle-stroke" />
+    <!-- Laptop Base -->
+    <path d="M5 56 L95 56 L88 64 L12 64 Z" class="doodle-stroke" />
+    <line x1="42" y1="58" x2="58" y2="58" class="doodle-stroke" />
+    <!-- Floating Binary / Curlys -->
+    <text x="100" y="25" font-family="monospace" font-size="11" font-weight="bold" fill="#C25E42">{ ; }</text>
+    <text x="-5" y="45" font-family="monospace" font-size="9" font-weight="bold" fill="#C25E42">&lt;dev&gt;</text>
+    <text x="50" y="80" font-family="'Courier New', monospace" font-size="8" font-weight="bold" fill="#C25E42" text-anchor="middle" letter-spacing="1">CODING • &lt;/&gt;</text>
+  </g>
+
+  <!-- ================= 4. ROBOTICS CLUB ================= -->
+  <!-- Robot Head, Gears, Circuit (approx 80, 240) -->
+  <g transform="translate(60, 230) scale(0.95)">
+    <!-- Antenna -->
+    <line x1="40" y1="14" x2="40" y2="24" class="doodle-stroke" />
+    <circle cx="40" cy="11" r="3.5" class="doodle-fill" />
+    <!-- Robot Head Box -->
+    <rect x="14" y="24" width="52" height="42" rx="8" class="doodle-stroke" />
+    <!-- Ears / Bolts -->
+    <rect x="8" y="38" width="6" height="14" rx="2" class="doodle-stroke" />
+    <rect x="66" y="38" width="6" height="14" rx="2" class="doodle-stroke" />
+    <!-- Eyes -->
+    <circle cx="28" cy="40" r="5" class="doodle-stroke" />
+    <circle cx="28" cy="40" r="2" class="doodle-fill" />
+    <circle cx="52" cy="40" r="5" class="doodle-stroke" />
+    <circle cx="52" cy="40" r="2" class="doodle-fill" />
+    <!-- Mouth Grid -->
+    <rect x="26" y="52" width="28" height="8" rx="2" class="doodle-stroke" />
+    <line x1="33" y1="52" x2="33" y2="60" class="doodle-stroke" />
+    <line x1="40" y1="52" x2="40" y2="60" class="doodle-stroke" />
+    <line x1="47" y1="52" x2="47" y2="60" class="doodle-stroke" />
+    <!-- Mechanical Gear ⚙ adjacent -->
+    <g transform="translate(74, 18) scale(0.65)">
+      <circle cx="20" cy="20" r="10" class="doodle-stroke" />
+      <circle cx="20" cy="20" r="4" class="doodle-fill" />
+      <path d="M18 4 H22 V8 H18 Z M18 32 H22 V36 H18 Z M4 18 H8 V22 H4 Z M32 18 H36 V22 H32 Z" class="doodle-stroke" />
+      <path d="M8 8 L11 11 M29 29 L32 32 M8 32 L11 29 M29 11 L32 8" class="doodle-stroke" />
+    </g>
+    <!-- Circuit lines -->
+    <path d="M14 60 H4 V74 H20" class="doodle-stroke" />
+    <circle cx="20" cy="74" r="2" class="doodle-fill" />
+    <text x="40" y="86" font-family="'Courier New', monospace" font-size="8" font-weight="bold" fill="#C25E42" text-anchor="middle" letter-spacing="1">ROBOTICS • AI</text>
+  </g>
+
+  <!-- ================= 5. DRAMA CLUB ================= -->
+  <!-- Comedy & Tragedy Theatrical Masks (approx 260, 240) -->
+  <g transform="translate(250, 230) scale(0.95)">
+    <!-- Happy Comedy Mask (Left) -->
+    <g transform="translate(0, 0)">
+      <path d="M10 20 C10 8 46 8 46 20 C46 44 40 56 28 56 C16 56 10 44 10 20 Z" class="doodle-stroke" />
+      <!-- Eyes: curved happy arches -->
+      <path d="M18 24 Q23 20 28 24" class="doodle-stroke" stroke-width="2.5" />
+      <path d="M28 24 Q33 20 38 24" class="doodle-stroke" stroke-width="2.5" />
+      <!-- Big Smile -->
+      <path d="M19 36 Q28 48 37 36" class="doodle-stroke" stroke-width="2" />
+      <path d="M19 36 Q28 40 37 36 Z" class="doodle-stroke" />
+    </g>
+    <!-- Sad Tragedy Mask (Right, slightly overlapping) -->
+    <g transform="translate(32, 10)">
+      <path d="M10 20 C10 8 46 8 46 20 C46 44 40 56 28 56 C16 56 10 44 10 20 Z" class="doodle-stroke" />
+      <!-- Eyes: sad slanted cuts -->
+      <circle cx="22" cy="24" r="3" class="doodle-fill" />
+      <circle cx="34" cy="24" r="3" class="doodle-fill" />
+      <!-- Frown -->
+      <path d="M19 44 Q28 34 37 44" class="doodle-stroke" stroke-width="2.2" />
+      <!-- Tear drop -->
+      <path d="M38 28 C38 31 35 33 35 30 C35 28 38 28 38 28 Z" class="doodle-fill" />
+    </g>
+    <!-- Spotlight beams -->
+    <path d="M0 10 L8 0" class="doodle-light" />
+    <path d="M78 12 L86 2" class="doodle-light" />
+    <text x="44" y="86" font-family="'Courier New', monospace" font-size="8" font-weight="bold" fill="#C25E42" text-anchor="middle" letter-spacing="1">DRAMA • THEATRE</text>
+  </g>
+
+  <!-- ================= 6. LITERATURE CLUB ================= -->
+  <!-- Open Book, Quill Pen, Ink (approx 440, 240) -->
+  <g transform="translate(440, 240) scale(0.95)">
+    <!-- Open Book Pages -->
+    <path d="M45 52 C35 44 18 44 5 48 L5 20 C18 16 35 16 45 24 C55 16 72 16 85 20 L85 48 C72 44 55 44 45 52 Z" class="doodle-stroke" />
+    <!-- Book Spine center -->
+    <line x1="45" y1="24" x2="45" y2="52" class="doodle-stroke" />
+    <!-- Book lines (text) -->
+    <line x1="14" y1="28" x2="36" y2="28" class="doodle-light" />
+    <line x1="14" y1="34" x2="38" y2="34" class="doodle-light" />
+    <line x1="14" y1="40" x2="32" y2="40" class="doodle-light" />
+    <line x1="52" y1="28" x2="76" y2="28" class="doodle-light" />
+    <line x1="52" y1="34" x2="74" y2="34" class="doodle-light" />
+    <line x1="52" y1="40" x2="70" y2="40" class="doodle-light" />
+    <!-- Feather Quill Pen dipping in -->
+    <g transform="translate(56, -4) rotate(22)">
+      <path d="M12 0 C12 18 4 30 0 38 C6 30 18 20 20 0 Z" class="doodle-stroke" />
+      <line x1="12" y1="0" x2="0" y2="44" class="doodle-stroke" />
+      <path d="M0 44 L-1 48 L2 47 Z" class="doodle-fill" />
+    </g>
+    <!-- Ink Pot -->
+    <rect x="75" y="44" width="14" height="12" rx="3" class="doodle-stroke" />
+    <line x1="77" y1="44" x2="87" y2="44" class="doodle-stroke" stroke-width="3" />
+    <text x="45" y="74" font-family="'Courier New', monospace" font-size="8" font-weight="bold" fill="#C25E42" text-anchor="middle" letter-spacing="1">LITERATURE • LIT</text>
+  </g>
+
+  <!-- ================= 7. GAMING CLUB ================= -->
+  <!-- Modern & Retro Game Controller (approx 160, 420) -->
+  <g transform="translate(160, 420) scale(0.95)">
+    <!-- Controller Body -->
+    <path d="M20 24 C14 14 36 10 48 16 L56 16 C68 10 90 14 84 24 L90 52 C94 66 74 72 66 58 L58 48 L46 48 L38 58 C30 72 10 66 14 52 Z" class="doodle-stroke" />
+    <!-- D-Pad (Left) -->
+    <path d="M28 28 H34 V22 H38 V28 H44 V32 H38 V38 H34 V32 H28 Z" class="doodle-fill" />
+    <!-- Action Buttons (Right) -->
+    <circle cx="68" cy="25" r="3.5" class="doodle-stroke" />
+    <circle cx="76" cy="31" r="3.5" class="doodle-stroke" />
+    <circle cx="60" cy="31" r="3.5" class="doodle-stroke" />
+    <circle cx="68" cy="37" r="3.5" class="doodle-stroke" />
+    <!-- Center Buttons / Touchpad -->
+    <rect x="48" y="24" width="8" height="6" rx="2" class="doodle-stroke" />
+    <!-- 8-Bit Pixel Heart & Spark -->
+    <path d="M102 24 C102 20 96 18 94 22 C92 18 86 20 86 24 C86 30 94 36 94 36 C94 36 102 30 102 24 Z" class="doodle-fill" />
+    <text x="52" y="78" font-family="'Courier New', monospace" font-size="8" font-weight="bold" fill="#C25E42" text-anchor="middle" letter-spacing="1">GAMING • ESPORTS</text>
+  </g>
+
+  <!-- ================= WHIMSICAL CONNECTING DOODLES & MOTIFS ================= -->
+  <!-- Campus Star (top left) -->
+  <g transform="translate(180, 150)">
+    <path d="M10 0 L12 8 L20 10 L12 12 L10 20 L8 12 L0 10 L8 8 Z" class="doodle-fill" />
+  </g>
+  <!-- Sparkles (center) -->
+  <g transform="translate(360, 160)">
+    <path d="M6 0 L8 4 L12 6 L8 8 L6 12 L4 8 L0 6 L4 4 Z" class="doodle-fill" />
+  </g>
+  <!-- Lightbulb / Idea (between radio & coding) -->
+  <g transform="translate(360, 410) scale(0.9)">
+    <path d="M20 10 C12 10 6 16 6 24 C6 30 10 34 12 38 L12 42 H28 L28 38 C30 34 34 30 34 24 C34 16 28 10 20 10 Z" class="doodle-stroke" />
+    <line x1="14" y1="44" x2="26" y2="44" class="doodle-stroke" />
+    <line x1="16" y1="47" x2="24" y2="47" class="doodle-stroke" />
+    <!-- Rays -->
+    <line x1="20" y1="2" x2="20" y2="6" class="doodle-stroke" />
+    <line x1="6" y1="6" x2="9" y2="9" class="doodle-stroke" />
+    <line x1="34" y1="6" x2="31" y2="9" class="doodle-stroke" />
+    <text x="20" y="60" font-family="'Courier New', monospace" font-size="7" font-weight="bold" fill="#C25E42" text-anchor="middle">CREATIVE</text>
+  </g>
+  <!-- Headphone Silhouette (bottom right) -->
+  <g transform="translate(480, 420) scale(0.85)">
+    <path d="M8 32 C8 16 24 6 42 6 C60 6 76 16 76 32" class="doodle-stroke" stroke-width="3" />
+    <rect x="2" y="28" width="12" height="22" rx="5" class="doodle-fill" />
+    <rect x="70" y="28" width="12" height="22" rx="5" class="doodle-fill" />
+    <path d="M14 50 Q26 62 42 62" class="doodle-stroke" />
+    <circle cx="42" cy="62" r="3" class="doodle-fill" />
+  </g>
+  <!-- Doodle Squiggles and Dots -->
+  <path d="M120 180 Q140 160 160 180 T200 180" class="doodle-stroke" />
+  <path d="M380 340 Q400 320 420 340 T460 340" class="doodle-stroke" />
+  <circle cx="140" cy="340" r="2.5" class="doodle-dot" />
+  <circle cx="150" cy="350" r="1.5" class="doodle-dot" />
+  <circle cx="480" cy="180" r="2" class="doodle-dot" />
+  <circle cx="310" cy="380" r="2" class="doodle-dot" />
+  <circle cx="318" cy="375" r="1.5" class="doodle-dot" />
+  <path d="M40 380 L52 390 L40 400" class="doodle-stroke" />
+  <path d="M540 120 L550 132 L540 144" class="doodle-stroke" />
+</svg>
