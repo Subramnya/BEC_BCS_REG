@@ -5,23 +5,26 @@ import { INSTAGRAM_URL, WHATSAPP_URL } from '../data/links';
 
 // Club banner strip. Every banner is a wide ~6:1 card; when a club has no
 // banner image, a typographic card in the same style stands in for it.
-export function ClubBanner({ club, className = '' }) {
+// `large` trims the decorative tagline/arrow block on the banner's right edge
+// so the number, title and artwork render ~40% taller on narrow cards.
+export function ClubBanner({ club, className = '', large = false }) {
   if (club.banner) {
     return (
-      <div className={`overflow-hidden bg-[#0f0d0c] ${className}`}>
+      <div className={`relative overflow-hidden bg-[#0f0d0c] ${className}`}>
         <img
           src={club.banner}
           alt={`${club.name} banner`}
-          className="block w-full h-auto aspect-[6.2/1] object-cover"
+          className={`block w-full h-auto object-cover ${large ? 'aspect-[4.5/1] object-left' : 'aspect-[6.2/1]'}`}
           loading="lazy"
           decoding="async"
         />
+        {large && <div className="absolute inset-y-0 right-0 w-1/5 bg-gradient-to-l from-[#0f0d0c]/85 to-transparent pointer-events-none" />}
       </div>
     );
   }
   const f = club.bannerFallback || { number: '', title: club.name.toUpperCase(), subtitle: club.category, motto: '' };
   return (
-    <div className={`relative overflow-hidden aspect-[6.2/1] fallback-banner ${className}`}>
+    <div className={`relative overflow-hidden ${large ? 'aspect-[4.5/1]' : 'aspect-[6.2/1]'} fallback-banner ${className}`}>
       <div className="absolute inset-0 flex items-center gap-[3.5%] px-[3.5%]">
         <div className="self-stretch flex flex-col items-center py-[3%] text-[#E9DCCB]/80 font-serif text-[clamp(9px,2.4vw,18px)]">
           {f.number}

@@ -17,8 +17,8 @@ export default function ClubsPage({ clubs = [] }) {
         </p>
       </section>
 
-      <section className="max-w-6xl mx-auto w-full px-5 sm:px-8 pb-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-8">
+      <section className="max-w-3xl mx-auto w-full px-3 sm:px-8 pb-20">
+        <div className="grid grid-cols-1 gap-7 lg:gap-9">
           {clubs.map((club, index) => (
             <motion.article
               key={club.id}
@@ -29,27 +29,23 @@ export default function ClubsPage({ clubs = [] }) {
               className="brut-card brut-card-hover group rounded-[20px] bg-white overflow-hidden flex flex-col cursor-pointer"
               onClick={() => navigate(`/clubs/${club.id}`)}
             >
-              <ClubBanner club={club} className="border-b-2 border-[#1C1917]" />
+              <ClubBanner club={club} large className="border-b-2 border-[#1C1917]" />
 
               <div className="p-5 sm:p-6 flex-1 flex flex-col gap-4">
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 sm:gap-5">
                   <img
                     src={club.logo}
                     alt={`${club.name} logo`}
-                    className="shrink-0 w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-2xl object-cover border-2 border-[#1C1917] shadow-[3px_3px_0_#1C1917] bg-white group-hover:-rotate-3 transition-transform duration-500"
+                    className="shrink-0 w-[76px] h-[76px] sm:w-[88px] sm:h-[88px] rounded-2xl object-cover border-2 border-[#1C1917] shadow-[3px_3px_0_#1C1917] bg-white group-hover:-rotate-3 transition-transform duration-500"
                     loading="lazy"
                   />
                   <div className="min-w-0">
                     <span className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-[#C25E42]">
                       {club.category}
                     </span>
-                    <h2 className="font-display font-extrabold text-[21px] sm:text-[22px] leading-tight text-[#1C1917] mt-0.5">
-                      {club.name}
-                    </h2>
+                    <p className="font-serif text-[21px] sm:text-2xl leading-snug text-[#1C1917] mt-1">{club.short}</p>
                   </div>
                 </div>
-
-                <p className="text-[14.5px] text-[#57534E] leading-relaxed line-clamp-2">{club.description}</p>
 
                 <button
                   onClick={(e) => {

@@ -1,62 +1,5 @@
 [
   {
-    "id": "cinelab",
-    "name": "Cinelab",
-    "category": "Cultural",
-    "tagline": "Dedicated to cultural excellence.",
-    "logo": "/clubs/cinelab-logo.jpg",
-    "banner": "/clubs/cinelab-banner.jpg",
-    "description": "Cinelab is inviting first-year students to be a part of our creative team. If you see stories in frames, experiment with perspectives, or simply love creating visual content, this is your chance to showcase your skills.",
-    "audition": {
-      "rules": [
-        "Pick ONE category: Photography, Photography with Editing, Videography, or Videography with Editing.",
-        "Create an original piece on the given theme. Videos must be 30–90 seconds long.",
-        "For editing categories, submit both the original/raw file and the final edited version.",
-        "Photos in JPG/PNG, videos in MP4, uploaded to Google Drive with “Anyone with the link can view”.",
-        "One submission per person. No stock, plagiarised or AI-generated work.",
-        "Work is judged on creativity, composition, storytelling and technique; shortlisted candidates will be contacted."
-      ]
-    }
-  },
-  {
-    "id": "dhwani-radio-club",
-    "name": "Dhwani (Radio Club)",
-    "category": "Cultural",
-    "tagline": "Dedicated to cultural excellence.",
-    "logo": "/clubs/dhwani-radio-club-logo.jpg",
-    "banner": "/clubs/dhwani-radio-club-banner.jpg",
-    "description": "Dhwani is BEC's campus radio and podcast club, a stage for voices, stories and conversations. Members host shows, write scripts, interview guests and learn audio production, building real confidence on the mic.",
-    "audition": {
-      "rules": [
-        "Introduction (30–60 sec): your name, branch and why you're here.",
-        "Reading: read a short script aloud with clarity and expression.",
-        "Topic speaking (1–2 min): speak on a random topic.",
-        "Spontaneous round: respond to a surprise situation on the spot.",
-        "Scored out of 60 on voice, confidence, communication, creativity, spontaneity and potential.",
-        "Be punctual, keep phones silent and respect everyone. The panel's decision is final."
-      ]
-    }
-  },
-  {
-    "id": "developer-club",
-    "name": "Developer Club",
-    "category": "Technical",
-    "tagline": "THINK.CODE.BUILD",
-    "logo": "/clubs/developer-club-logo.jpg",
-    "banner": "/clubs/developer-club-banner.jpg",
-    "description": "Our coding community is focused on helping students learn, create, and grow together. We provide a collaborative environment where beginners can build strong programming and technical skills through hands-on sessions, projects, and practical activities. Members explore areas such as web development, software development, problem-solving, and emerging technologies while gaining experience by working on real-world challenges. We also encourage students to participate in hackathons, competitions, and technical events to apply their knowledge and build confidence. Through teamwork, peer learning, and knowledge sharing, our goal is to create a community where students can continuously improve, turn ideas into meaningful solutions, and prepare themselves for future opportunities.",
-    "audition": {
-      "rules": [
-        "Three rounds: Ouroboros, Block Game and Royal Rumble.",
-        "Ouroboros: 30–40 questions in one run with checkpoints. A mistake sends you back to the last checkpoint; a second one restarts the run.",
-        "Block Game: drag and connect code blocks in the right order to clear each level.",
-        "Royal Rumble: answer MCQs to earn coins, then attack other players and defend yourself.",
-        "Everyone starts with 3 lives. Lose all three and you're out; the last player standing wins.",
-        "Work independently. No outside help unless it's specifically allowed."
-      ]
-    }
-  },
-  {
     "id": "bec-swara",
     "name": "Bec Swara",
     "category": "Cultural",
@@ -73,62 +16,9 @@
         "Karaoke and backing tracks are not permitted.",
         "Plan your piece so it fits comfortably in the time limit."
       ]
-    }
-  },
-  {
-    "id": "bec-robotics",
-    "name": "Bec Robotics",
-    "category": "Technical",
-    "tagline": "Dedicated to technical excellence.",
-    "logo": "/clubs/bec-robotics-logo.jpg",
-    "banner": "/clubs/bec-robotics-banner.jpg",
-    "description": "BEC Robotics & Drone Club is a student-driven technical community focused on robotics, automation, drones, and emerging technologies.\nWe provide members with hands-on learning through projects, workshops, challenges, and competitions.\nMembers get opportunities to work with electronics, microcontrollers, sensors, programming, mechanical systems, and robotics platforms.\nThe club encourages students to move beyond theory and build real, working systems.\nFrom beginners taking their first step into robotics to experienced builders, everyone gets a platform to learn and contribute.\nOur goal is to build a strong technical community that learns, builds, competes, and innovates together",
-    "audition": {
-      "rules": [
-        "Round 1 is an individual technical quiz on robotics, electronics, programming, mechanics and logic.",
-        "No phones, internet, AI tools or discussion during the quiz.",
-        "Shortlisted candidates move on to Round 2: a personal interview.",
-        "The interview looks at your interest, problem-solving, willingness to learn and teamwork.",
-        "Previous robotics experience is not required. Just be honest about what you know.",
-        "Final selection is based on your overall performance in both rounds."
-      ]
-    }
-  },
-  {
-    "id": "bec-abhinaya",
-    "name": "Bec Abhinaya",
-    "category": "Cultural",
-    "tagline": "Dedicated to cultural excellence.",
-    "logo": "/clubs/bec-abhinaya-logo.jpg",
-    "banner": "/clubs/bec-abhinaya-banner.jpg",
-    "description": "A platform where students can explore acting, creativity, and self-expression. It helps build confidence and communication skills through acting, dialogue, expressions, and stage performances. Students can take part in skits, monologues, short films, and Instagram content. It also encourages teamwork and leadership through scripting, direction, costumes, props, and backstage work. Provides opportunities for everyone to learn, perform, participate in college events, and develop their talents.",
-    "audition": {
-      "rules": [
-        "Prepare a 1–2 minute monologue or scene.",
-        "Take an expression test and perform a 30-second situation on a given topic.",
-        "You may be asked to replay the same situation with different emotions.",
-        "Focus on expressions, voice and body language. No acting experience needed.",
-        "Be punctual. The panel selects on performance and role suitability.",
-        "Selected members must attend regular rehearsals."
-      ]
-    }
-  },
-  {
-    "id": "bec-gamesmith",
-    "name": "Bec Gamesmith",
-    "category": "Technical",
-    "tagline": "Dedicated to technical excellence.",
-    "logo": "/clubs/bec-gamesmith-logo.jpg",
-    "banner": "/clubs/bec-gamesmith-banner.jpg",
-    "description": "A space for students to enjoy gaming, develop skills, and connect with fellow gamers. The club promotes teamwork, strategy, creativity, and healthy competition through gaming events, tournaments, and fun activities.",
-    "audition": {
-      "rules": [
-        "Open for all. Every gamer is welcome.",
-        "Bring your squad along.",
-        "Struggling with skill issues? Don't worry, we're here to help you level up."
-      ],
-      "formComingSoon": true
-    }
+    },
+    "number": 1,
+    "short": "The music club: sing, play and perform live."
   },
   {
     "id": "bec-natraja",
@@ -153,6 +43,132 @@
       "title": "BEC NATRAJA",
       "subtitle": "Dance",
       "motto": "Rhythm · Expression · Stage"
-    }
+    },
+    "number": 2,
+    "short": "The dance club: move, express and own the stage."
+  },
+  {
+    "id": "bec-abhinaya",
+    "name": "Bec Abhinaya",
+    "category": "Cultural",
+    "tagline": "Dedicated to cultural excellence.",
+    "logo": "/clubs/bec-abhinaya-logo.jpg",
+    "banner": "/clubs/bec-abhinaya-banner.jpg",
+    "description": "A platform where students can explore acting, creativity, and self-expression. It helps build confidence and communication skills through acting, dialogue, expressions, and stage performances. Students can take part in skits, monologues, short films, and Instagram content. It also encourages teamwork and leadership through scripting, direction, costumes, props, and backstage work. Provides opportunities for everyone to learn, perform, participate in college events, and develop their talents.",
+    "audition": {
+      "rules": [
+        "Prepare a 1–2 minute monologue or scene.",
+        "Take an expression test and perform a 30-second situation on a given topic.",
+        "You may be asked to replay the same situation with different emotions.",
+        "Focus on expressions, voice and body language. No acting experience needed.",
+        "Be punctual. The panel selects on performance and role suitability.",
+        "Selected members must attend regular rehearsals."
+      ]
+    },
+    "number": 3,
+    "short": "Drama and acting: stories, characters and stage performances."
+  },
+  {
+    "id": "dhwani-radio-club",
+    "name": "Dhwani (Radio Club)",
+    "category": "Cultural",
+    "tagline": "Dedicated to cultural excellence.",
+    "logo": "/clubs/dhwani-radio-club-logo.jpg",
+    "banner": "/clubs/dhwani-radio-club-banner.jpg",
+    "description": "Dhwani is BEC's campus radio and podcast club, a stage for voices, stories and conversations. Members host shows, write scripts, interview guests and learn audio production, building real confidence on the mic.",
+    "audition": {
+      "rules": [
+        "Introduction (30–60 sec): your name, branch and why you're here.",
+        "Reading: read a short script aloud with clarity and expression.",
+        "Topic speaking (1–2 min): speak on a random topic.",
+        "Spontaneous round: respond to a surprise situation on the spot.",
+        "Scored out of 60 on voice, confidence, communication, creativity, spontaneity and potential.",
+        "Be punctual, keep phones silent and respect everyone. The panel's decision is final."
+      ]
+    },
+    "number": 4,
+    "short": "Campus radio and podcasts: voices beyond borders."
+  },
+  {
+    "id": "developer-club",
+    "name": "Developer Club",
+    "category": "Technical",
+    "tagline": "THINK.CODE.BUILD",
+    "logo": "/clubs/developer-club-logo.jpg",
+    "banner": "/clubs/developer-club-banner.jpg",
+    "description": "Our coding community is focused on helping students learn, create, and grow together. We provide a collaborative environment where beginners can build strong programming and technical skills through hands-on sessions, projects, and practical activities. Members explore areas such as web development, software development, problem-solving, and emerging technologies while gaining experience by working on real-world challenges. We also encourage students to participate in hackathons, competitions, and technical events to apply their knowledge and build confidence. Through teamwork, peer learning, and knowledge sharing, our goal is to create a community where students can continuously improve, turn ideas into meaningful solutions, and prepare themselves for future opportunities.",
+    "audition": {
+      "rules": [
+        "Three rounds: Ouroboros, Block Game and Royal Rumble.",
+        "Ouroboros: 30–40 questions in one run with checkpoints. A mistake sends you back to the last checkpoint; a second one restarts the run.",
+        "Block Game: drag and connect code blocks in the right order to clear each level.",
+        "Royal Rumble: answer MCQs to earn coins, then attack other players and defend yourself.",
+        "Everyone starts with 3 lives. Lose all three and you're out; the last player standing wins.",
+        "Work independently. No outside help unless it's specifically allowed."
+      ]
+    },
+    "number": 5,
+    "short": "Learn, code and build real projects together."
+  },
+  {
+    "id": "bec-robotics",
+    "name": "Bec Robotics",
+    "category": "Technical",
+    "tagline": "Dedicated to technical excellence.",
+    "logo": "/clubs/bec-robotics-logo.jpg",
+    "banner": "/clubs/bec-robotics-banner.jpg",
+    "description": "BEC Robotics & Drone Club is a student-driven technical community focused on robotics, automation, drones, and emerging technologies.\nWe provide members with hands-on learning through projects, workshops, challenges, and competitions.\nMembers get opportunities to work with electronics, microcontrollers, sensors, programming, mechanical systems, and robotics platforms.\nThe club encourages students to move beyond theory and build real, working systems.\nFrom beginners taking their first step into robotics to experienced builders, everyone gets a platform to learn and contribute.\nOur goal is to build a strong technical community that learns, builds, competes, and innovates together",
+    "audition": {
+      "rules": [
+        "Round 1 is an individual technical quiz on robotics, electronics, programming, mechanics and logic.",
+        "No phones, internet, AI tools or discussion during the quiz.",
+        "Shortlisted candidates move on to Round 2: a personal interview.",
+        "The interview looks at your interest, problem-solving, willingness to learn and teamwork.",
+        "Previous robotics experience is not required. Just be honest about what you know.",
+        "Final selection is based on your overall performance in both rounds."
+      ]
+    },
+    "number": 6,
+    "short": "Build robots, drones and real working machines."
+  },
+  {
+    "id": "cinelab",
+    "name": "Cinelab",
+    "category": "Cultural",
+    "tagline": "Dedicated to cultural excellence.",
+    "logo": "/clubs/cinelab-logo.jpg",
+    "banner": "/clubs/cinelab-banner.jpg",
+    "description": "Cinelab is inviting first-year students to be a part of our creative team. If you see stories in frames, experiment with perspectives, or simply love creating visual content, this is your chance to showcase your skills.",
+    "audition": {
+      "rules": [
+        "Pick ONE category: Photography, Photography with Editing, Videography, or Videography with Editing.",
+        "Create an original piece on the given theme. Videos must be 30–90 seconds long.",
+        "For editing categories, submit both the original/raw file and the final edited version.",
+        "Photos in JPG/PNG, videos in MP4, uploaded to Google Drive with “Anyone with the link can view”.",
+        "One submission per person. No stock, plagiarised or AI-generated work.",
+        "Work is judged on creativity, composition, storytelling and technique; shortlisted candidates will be contacted."
+      ]
+    },
+    "number": 7,
+    "short": "Photography and videography: capture, create, tell."
+  },
+  {
+    "id": "bec-gamesmith",
+    "name": "Bec Gamesmith",
+    "category": "Technical",
+    "tagline": "Dedicated to technical excellence.",
+    "logo": "/clubs/bec-gamesmith-logo.jpg",
+    "banner": "/clubs/bec-gamesmith-banner.jpg",
+    "description": "A space for students to enjoy gaming, develop skills, and connect with fellow gamers. The club promotes teamwork, strategy, creativity, and healthy competition through gaming events, tournaments, and fun activities.",
+    "audition": {
+      "rules": [
+        "Open for all. Every gamer is welcome.",
+        "Bring your squad along.",
+        "Struggling with skill issues? Don't worry, we're here to help you level up."
+      ],
+      "formComingSoon": true
+    },
+    "number": 8,
+    "short": "Gaming, tournaments and teamwork. More than a game."
   }
 ]

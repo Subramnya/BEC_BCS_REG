@@ -79,8 +79,6 @@ export default function AuditionPage({ club }) {
             {!formComingSoon && <ApplyButton size="sm" className="hidden sm:inline-flex self-center" />}
           </div>
 
-          <p className="mt-6 text-[15px] text-[#57534E] leading-relaxed">{club.description}</p>
-
           {/* Rules — at most six */}
           <section className="mt-8 rounded-[20px] bg-white border-2 border-[#1C1917] overflow-hidden">
             <header className="px-5 sm:px-7 py-4 border-b-2 border-[#1C1917] bg-[#F4EFEA]">
