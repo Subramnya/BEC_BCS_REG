@@ -8,7 +8,14 @@
     "banner": "/clubs/cinelab-banner.jpg",
     "description": "Cinelab is inviting first-year students to be a part of our creative team. If you see stories in frames, experiment with perspectives, or simply love creating visual content, this is your chance to showcase your skills.",
     "audition": {
-      "process": "AUDITION CATEGORIES\n\nParticipants can choose ONE of the following categories:\n\n1. Photography\nSubmit one original photograph based on the given theme/prompt\n\n2. Photography with Editing\nSubmit\nThe original photograph\nThe edited/final version\nEditing may include colour grading, retouching, exposure adjustments, composition, etc.\n\n3. Videography\nSubmit one original video based on the given theme/prompt.\nDuration: 30–90 seconds.\n\n4. Videography with Editing\nSubmit\nOriginal/raw footage\nFinal edited video\nParticipants may use editing techniques such as cuts, transitions, colour grading, sound design, text, and music.\n\nAUDITION PROCESS\n\nStep 1 — Choose your category\nSelect only ONE category from the four available options.\n\nStep 2 — Create your submission\nCreate your work according to the given theme/prompt and category requirements.\n\nStep 3 — Upload your work\nUpload your submission to Google Drive and ensure that the file is accessible through the submitted link.\n\nStep 4 — Submit the form\nFill in the audition form with your details and paste the Google Drive link to your submission.\n\nStep 5 — Evaluation\nSubmissions will be evaluated by the Cinelab team based on creativity, composition, storytelling, originality and technical execution.\n\nStep 6 — Selection\nShortlisted participants will be contacted by the Cinelab team regarding the next stage of the selection process.\n\nRULES & REGULATIONS\n\n1.Each participant can register for only ONE category.\n\n2.Only ONE submission is permitted per participant.\n\n3.All submitted work must be original and created by the participant.\n\n4.Stock photographs, stock footage, plagiarised work or work created by another person will not be accepted.\n\n5.AI-generated images/videos are not permitted. Regular photo and video editing software may be used where applicable.\n\n6.For edited categories, participants must submit both the original/raw file and the final edited version.\n\n7.Videography submissions must be between 30 and 90 seconds.\n\n8.Photography submissions must be in JPG or PNG format.\n\n9.Video submissions must be in MP4 format.\n\n10.All files must be uploaded to Google Drive with link access set to “Anyone with the link can view.”\n\n11.Participants are responsible for checking that their submitted links work before submitting the form.\n\n12.Submissions received after the deadline may not be considered."
+      "rules": [
+        "Pick ONE category: Photography, Photography with Editing, Videography, or Videography with Editing.",
+        "Create an original piece on the given theme. Videos must be 30–90 seconds long.",
+        "For editing categories, submit both the original/raw file and the final edited version.",
+        "Photos in JPG/PNG, videos in MP4, uploaded to Google Drive with “Anyone with the link can view”.",
+        "One submission per person. No stock, plagiarised or AI-generated work.",
+        "Work is judged on creativity, composition, storytelling and technique; shortlisted candidates will be contacted."
+      ]
     }
   },
   {
@@ -18,9 +25,16 @@
     "tagline": "Dedicated to cultural excellence.",
     "logo": "/clubs/dhwani-radio-club-logo.jpg",
     "banner": "/clubs/dhwani-radio-club-banner.jpg",
-    "description": "still waiting for description",
+    "description": "Dhwani is BEC's campus radio and podcast club, a stage for voices, stories and conversations. Members host shows, write scripts, interview guests and learn audio production, building real confidence on the mic.",
     "audition": {
-      "process": "1. The 4 Audition Rounds : \n\nRound 1 — Introduction\nDuration: 30–60 seconds\n\nIntroduce yourself:\nName\nBranch\nWhy you are here\n\nRound 2 — Reading\n\nRead a short script aloud.\nFocus on voice, clarity, confidence, and expression.\n\nRound 3 — Topic Speaking\nDuration: 1–2 minutes\n\nSpeak on a random topic.\nShow your creativity, communication skills, and confidence.\n\nRound 4 — Spontaneous\n\nRespond to a random situation.\nThink quickly and demonstrate your spontaneity and presence of mind.\n\n2. Evaluation Criteria & Total\nTotal Marks: 60\n\n🎙️ Voice & Clarity\t- 10\n💪 Confidence\t- 10\n💬 Communication - 10\n🎨 Creativity\t- 10\n⚡ Spontaneity - 10\n🌟 Potential - 10\n\n3. Key Rules\n⏰ Be Punctual.\n📋 Follow instructions.\n📵 Keep phones silent.\n🤝 Respect all participants and the panel.\n🏆 The panel's decision is final."
+      "rules": [
+        "Introduction (30–60 sec): your name, branch and why you're here.",
+        "Reading: read a short script aloud with clarity and expression.",
+        "Topic speaking (1–2 min): speak on a random topic.",
+        "Spontaneous round: respond to a surprise situation on the spot.",
+        "Scored out of 60 on voice, confidence, communication, creativity, spontaneity and potential.",
+        "Be punctual, keep phones silent and respect everyone. The panel's decision is final."
+      ]
     }
   },
   {
@@ -32,7 +46,14 @@
     "banner": "/clubs/developer-club-banner.jpg",
     "description": "Our coding community is focused on helping students learn, create, and grow together. We provide a collaborative environment where beginners can build strong programming and technical skills through hands-on sessions, projects, and practical activities. Members explore areas such as web development, software development, problem-solving, and emerging technologies while gaining experience by working on real-world challenges. We also encourage students to participate in hackathons, competitions, and technical events to apply their knowledge and build confidence. Through teamwork, peer learning, and knowledge sharing, our goal is to create a community where students can continuously improve, turn ideas into meaningful solutions, and prepare themselves for future opportunities.",
     "audition": {
-      "process": "🔵 Round 1 — Ouroboros\n1. 30–40 questions are given in one continuous sequence.\n2. Checkpoints are placed at intervals.\n3. Answer correctly to move forward to the next question/checkpoint.\n4. First mistake: You go back to the nearest checkpoint you have already cleared.\n5. Second mistake: The entire run resets, and you start again from the beginning.\n6. The name Ouroboros represents the loop-back system, where mistakes send you toward the start.\n\n🟢 Round 2 — Block Game\n1. Understand the Goal – Know what you need to complete.\n2. Build the Solution – Drag and connect blocks in the correct order.\n3. Plan Carefully – Commands run in sequence, so order matters.\n4. Use Available Blocks – Follow the given blocks and their limits.\n5. Test & Fix – Run your program and correct mistakes.\n6. Complete the Level – Solve the challenge to unlock the next level.\n7. Work Independently – No outside help unless it is specifically allowed.\n\n🟡 Round 3 — Royal Rumble\n1. Join the Game – Enter your name and join.\n2. Earn Coins – Answer MCQs correctly to earn coins.\n3. Attack Players – Use your coins to attack other players.\n4. Defend Yourself – Answer the defense question correctly to block an attack.\n5. 3 Lives – Every player starts with 3 lives.\n6. Lose a Life – A failed defense costs 1 life.\n7. Elimination – Losing all 3 lives eliminates you.\n8. Final Winner – The last player remaining wins."
+      "rules": [
+        "Three rounds: Ouroboros, Block Game and Royal Rumble.",
+        "Ouroboros: 30–40 questions in one run with checkpoints. A mistake sends you back to the last checkpoint; a second one restarts the run.",
+        "Block Game: drag and connect code blocks in the right order to clear each level.",
+        "Royal Rumble: answer MCQs to earn coins, then attack other players and defend yourself.",
+        "Everyone starts with 3 lives. Lose all three and you're out; the last player standing wins.",
+        "Work independently. No outside help unless it's specifically allowed."
+      ]
     }
   },
   {
@@ -44,7 +65,14 @@
     "banner": "/clubs/bec-swara-banner.jpg",
     "description": "SWARA, the music club of Basaveshwara Engineering College, celebrates musical excellence and creative expression.\nIt provides a distinguished platform for students to explore, develop, and showcase their musical talents.\nThrough performances and artistic initiatives, SWARA fosters confidence, collaboration, and cultural engagement.\nThe club brings together passionate individuals, enriching campus life through the universal language of music.\nSWARA is where talent, creativity, and community come together in harmony.",
     "audition": {
-      "process": "PERFORMANCE LANGUAGE\nParticipants may perform in: English, Hindi, Kannada\n\nACCOMPANIMENT & EQUIPMENT\n- Mics will be provided if required.\n- Participants performing with an instrument must bring their own.\n- Karaoke / backing tracks are not permitted.\n\nSOLO PERFORMANCE\n- The audition is strictly solo.\n- Each participant will present one performance only.\n\nTIME LIMIT\n- Each performance must be completed within 2 minutes.\n- Participants are requested to plan their performance accordingly."
+      "rules": [
+        "Perform in English, Hindi or Kannada.",
+        "The audition is strictly solo, with one performance per participant.",
+        "Each performance must finish within 2 minutes.",
+        "Mics are provided if needed; bring your own instrument if you play one.",
+        "Karaoke and backing tracks are not permitted.",
+        "Plan your piece so it fits comfortably in the time limit."
+      ]
     }
   },
   {
@@ -56,7 +84,14 @@
     "banner": "/clubs/bec-robotics-banner.jpg",
     "description": "BEC Robotics & Drone Club is a student-driven technical community focused on robotics, automation, drones, and emerging technologies.\nWe provide members with hands-on learning through projects, workshops, challenges, and competitions.\nMembers get opportunities to work with electronics, microcontrollers, sensors, programming, mechanical systems, and robotics platforms.\nThe club encourages students to move beyond theory and build real, working systems.\nFrom beginners taking their first step into robotics to experienced builders, everyone gets a platform to learn and contribute.\nOur goal is to build a strong technical community that learns, builds, competes, and innovates together",
     "audition": {
-      "process": "## Audition Rules\n\n### **Round 1 — Technical Quiz**\n\n1. The first round will be a **technical quiz**.\n2. Questions will cover **basic robotics, electronics, programming, mechanical concepts, logical reasoning, and general technical knowledge**.\n3. The quiz will be conducted individually.\n4. Candidates must complete the quiz within the given time.\n5. **No external assistance** is allowed.\n6. Mobile phones, internet searches, AI tools, and discussion with other candidates are not permitted.\n7. Candidates meeting the required criteria will be **shortlisted for Round 2**.\n8. The quiz score will be considered in the overall selection process.\n\n### **Round 2 — Personal Interview**\n\n1. Only candidates shortlisted from Round 1 will attend the interview.\n2. The interview will assess:\n   - **Technical interest and basic knowledge**\n   - **Problem-solving approach**\n   - **Interest in robotics and technology**\n   - **Willingness to learn**\n   - **Teamwork and communication**\n   - **Commitment to club activities**\n3. Candidates may be asked about their **projects, previous experience, technical interests, or areas they want to learn**.\n4. Previous robotics experience is **not mandatory**.\n5. Candidates should answer honestly and demonstrate their own understanding.\n6. Final selection will be based on the **overall performance in both rounds**."
+      "rules": [
+        "Round 1 is an individual technical quiz on robotics, electronics, programming, mechanics and logic.",
+        "No phones, internet, AI tools or discussion during the quiz.",
+        "Shortlisted candidates move on to Round 2: a personal interview.",
+        "The interview looks at your interest, problem-solving, willingness to learn and teamwork.",
+        "Previous robotics experience is not required. Just be honest about what you know.",
+        "Final selection is based on your overall performance in both rounds."
+      ]
     }
   },
   {
@@ -68,7 +103,14 @@
     "banner": "/clubs/bec-abhinaya-banner.jpg",
     "description": "A platform where students can explore acting, creativity, and self-expression. It helps build confidence and communication skills through acting, dialogue, expressions, and stage performances. Students can take part in skits, monologues, short films, and Instagram content. It also encourages teamwork and leadership through scripting, direction, costumes, props, and backstage work. Provides opportunities for everyone to learn, perform, participate in college events, and develop their talents.",
     "audition": {
-      "process": "- Every interested student gets a **fair chance**.\n- Prepare a **1–2 minute monologue or scene**.\n- An **expression test** will be conducted.\n- Perform a **30-second situation** based on the given topic.\n- You may be asked to perform the same situation with **different emotions**.\n- Focus on **expressions, voice, and body language**.\n- Be **punctual** for the audition.\n- **Previous acting experience is not required**.\n- Selection will be based on **performance and role suitability**.\n- Selected members must attend **regular rehearsals**.\n- Final selection will be made by the **audition panel**."
+      "rules": [
+        "Prepare a 1–2 minute monologue or scene.",
+        "Take an expression test and perform a 30-second situation on a given topic.",
+        "You may be asked to replay the same situation with different emotions.",
+        "Focus on expressions, voice and body language. No acting experience needed.",
+        "Be punctual. The panel selects on performance and role suitability.",
+        "Selected members must attend regular rehearsals."
+      ]
     }
   },
   {
@@ -80,7 +122,12 @@
     "banner": "/clubs/bec-gamesmith-banner.jpg",
     "description": "A space for students to enjoy gaming, develop skills, and connect with fellow gamers. The club promotes teamwork, strategy, creativity, and healthy competition through gaming events, tournaments, and fun activities.",
     "audition": {
-      "process": "Open for all \nBring up ur squad\nIf you are suffering from skill issues , Its done broo [We are here]"
+      "rules": [
+        "Open for all. Every gamer is welcome.",
+        "Bring your squad along.",
+        "Struggling with skill issues? Don't worry, we're here to help you level up."
+      ],
+      "formComingSoon": true
     }
   },
   {
@@ -92,7 +139,14 @@
     "banner": null,
     "description": "The Dance Club aims to provide an inclusive platform for students to explore dance, develop their skills, and express their creativity. The club encourages discipline, confidence, teamwork, and regular learning through training, workshops, performances, and competitions. It gives every student an opportunity to learn, collaborate, perform, and represent the college, while creating memorable experiences and celebrating the joy of dance",
     "audition": {
-      "process": "Performance: Prepare a 1–2 minute dance performance.\nIntroduction: Give a 1-minute introduction about yourself.\nCostume: Wear appropriate and decent costumes. Vulgar or offensive outfits are not allowed.\nClub Decorum: Respect the club’s rules, values, and discipline.\nConfidence: Show your energy, attitude, and confidence.\nPunctuality: Be on time for the audition.\nArrival: Reach the audition room at least 30 minutes early."
+      "rules": [
+        "Prepare a 1–2 minute dance performance.",
+        "Give a 1-minute introduction about yourself.",
+        "Wear appropriate, decent costumes. Vulgar or offensive outfits are not allowed.",
+        "Respect the club's rules, values and discipline.",
+        "Show your energy, attitude and confidence.",
+        "Be on time: reach the audition room at least 30 minutes early."
+      ]
     },
     "bannerFallback": {
       "number": "02",

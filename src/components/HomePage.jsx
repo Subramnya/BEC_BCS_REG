@@ -42,7 +42,7 @@ export default function HomePage({ clubs = [] }) {
                 onClick={() => navigate('/clubs')}
                 className="brut-btn group inline-flex items-center gap-3 rounded-full bg-[#C25E42] text-white pl-8 pr-3 py-3 font-display font-extrabold uppercase tracking-[0.12em] text-[15px]"
               >
-                Get Started
+                Explore Clubs
                 <span className="grid place-items-center w-9 h-9 rounded-full bg-[#1C1917] group-hover:translate-x-1 transition-transform">
                   <ArrowRight className="w-4 h-4" />
                 </span>

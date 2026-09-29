@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
-import { ArrowLeft, ArrowUpRight, ChevronDown } from 'lucide-react';
+import React from 'react';
+import { ArrowLeft, ArrowUpRight, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { navigate } from '../router';
 import { AUDITION_FORM_URL } from '../data/links';
-import MarkdownRenderer from './MarkdownRenderer';
 import { ClubBanner, Eyebrow, Footer } from './ui';
 
-const LONG_DETAILS = 900; // characters; longer details start collapsed
 const ease = [0.22, 1, 0.36, 1];
 
 function ApplyButton({ size = 'lg', className = '' }) {
@@ -26,10 +24,25 @@ function ApplyButton({ size = 'lg', className = '' }) {
   );
 }
 
+function ComingSoon() {
+  return (
+    <div className="rounded-[20px] border-2 border-dashed border-[#1C1917] bg-[#FCF7ED] px-6 py-7 text-center">
+      <span className="inline-flex items-center gap-2 rounded-full bg-[#1C1917] text-[#FAF8F5] px-4 py-1.5 font-mono text-[11px] font-bold uppercase tracking-[0.2em]">
+        <Clock className="w-3.5 h-3.5" />
+        Coming soon
+      </span>
+      <p className="font-serif text-2xl sm:text-3xl font-semibold text-[#1C1917] mt-4 leading-tight">
+        The registration form is on its way.
+      </p>
+      <p className="text-[14px] text-[#78716C] mt-2 max-w-sm mx-auto leading-relaxed">
+        Follow our Instagram and WhatsApp channels to know the moment it opens.
+      </p>
+    </div>
+  );
+}
+
 export default function AuditionPage({ club }) {
-  const { process } = club.audition;
-  const isLong = process.length > LONG_DETAILS;
-  const [expanded, setExpanded] = useState(!isLong);
+  const { rules = [], formComingSoon } = club.audition;
 
   return (
     <div className="flex-1 flex flex-col paper-bg">
@@ -52,56 +65,58 @@ export default function AuditionPage({ club }) {
 
           {/* Identity */}
           <div className="mt-8 flex items-center gap-4 sm:gap-5">
-            <div className="shrink-0 rounded-2xl p-1 bg-white border-2 border-[#1C1917] shadow-[3px_3px_0_#1C1917] -rotate-3">
-              <img src={club.logo} alt={`${club.name} logo`} className="w-[72px] h-[72px] sm:w-24 sm:h-24 rounded-xl object-cover" />
-            </div>
+            <img
+              src={club.logo}
+              alt={`${club.name} logo`}
+              className="shrink-0 w-[72px] h-[72px] sm:w-24 sm:h-24 rounded-2xl object-cover border-2 border-[#1C1917] shadow-[3px_3px_0_#1C1917] bg-white -rotate-3"
+            />
             <div className="min-w-0 flex-1">
               <Eyebrow>Audition details</Eyebrow>
               <h1 className="font-serif font-semibold text-[#1C1917] leading-[0.95] mt-2 text-[clamp(2rem,8.5vw,3.25rem)]">
                 {club.name}
               </h1>
             </div>
-            <ApplyButton size="sm" className="hidden sm:inline-flex self-center" />
+            {!formComingSoon && <ApplyButton size="sm" className="hidden sm:inline-flex self-center" />}
           </div>
 
-          {/* Process */}
+          <p className="mt-6 text-[15px] text-[#57534E] leading-relaxed">{club.description}</p>
+
+          {/* Rules — at most six */}
           <section className="mt-8 rounded-[20px] bg-white border-2 border-[#1C1917] overflow-hidden">
-            <header className="flex items-center justify-between px-5 sm:px-7 py-4 border-b-2 border-[#1C1917] bg-[#F4EFEA]">
+            <header className="px-5 sm:px-7 py-4 border-b-2 border-[#1C1917] bg-[#F4EFEA]">
               <h2 className="font-display font-extrabold text-[15px] uppercase tracking-[0.12em] text-[#1C1917]">
                 How the audition works
               </h2>
-              <span className="hidden sm:inline font-mono text-[10px] uppercase tracking-[0.2em] text-[#78716C]">Read first</span>
             </header>
-
-            <div className="relative">
-              <div
-                className={`px-5 sm:px-7 py-6 overflow-hidden transition-[max-height] duration-700 ease-out ${
-                  expanded ? 'max-h-[400rem]' : 'max-h-[24rem]'
-                }`}
-              >
-                <MarkdownRenderer content={process} />
-              </div>
-              {!expanded && (
-                <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white via-white/90 to-transparent pointer-events-none" />
-              )}
-            </div>
-
-            {isLong && (
-              <button
-                onClick={() => setExpanded((v) => !v)}
-                className="w-full border-t-2 border-[#1C1917] py-3.5 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-[#1C1917] hover:bg-[#F4EFEA] flex items-center justify-center gap-2 transition-colors"
-              >
-                {expanded ? 'Show less' : 'Read full details'}
-                <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${expanded ? 'rotate-180' : ''}`} />
-              </button>
-            )}
+            <ol className="divide-y divide-dashed divide-[#1C1917]/20">
+              {rules.map((rule, i) => (
+                <motion.li
+                  key={i}
+                  initial={{ opacity: 0, x: -10 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.45, ease, delay: 0.15 + i * 0.06 }}
+                  className="flex gap-4 px-5 sm:px-7 py-4"
+                >
+                  <span className="shrink-0 grid place-items-center w-8 h-8 rounded-full bg-[#1C1917] text-white font-mono text-[12px] font-bold">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <p className="text-[15px] leading-relaxed text-[#44403C] pt-1">{rule}</p>
+                </motion.li>
+              ))}
+            </ol>
           </section>
 
           {/* CTA */}
           <div className="mt-10 text-center space-y-4">
-            <p className="font-hand text-[26px] text-[#C25E42] -rotate-1">Read it all? Your stage is waiting.</p>
-            <ApplyButton />
-            <p className="font-mono text-[10.5px] uppercase tracking-[0.2em] text-[#A8A29E]">Opens the audition form</p>
+            {formComingSoon ? (
+              <ComingSoon />
+            ) : (
+              <>
+                <p className="font-hand text-[26px] text-[#C25E42] -rotate-1">Read it all? Your stage is waiting.</p>
+                <ApplyButton />
+                <p className="font-mono text-[10.5px] uppercase tracking-[0.2em] text-[#A8A29E]">Opens the audition form</p>
+              </>
+            )}
           </div>
         </motion.div>
       </div>

@@ -29,34 +29,27 @@ export default function ClubsPage({ clubs = [] }) {
               className="brut-card brut-card-hover group rounded-[20px] bg-white overflow-hidden flex flex-col cursor-pointer"
               onClick={() => navigate(`/clubs/${club.id}`)}
             >
-              <div className="p-2.5 pb-0">
-                <ClubBanner club={club} className="rounded-[12px]" />
-              </div>
+              <ClubBanner club={club} className="border-b-2 border-[#1C1917]" />
 
-              <div className="p-5 sm:p-6 flex-1 flex flex-col gap-5">
-                <div className="flex items-start gap-4">
-                  <div className="shrink-0 rounded-2xl p-1 bg-white border-2 border-[#1C1917] shadow-[3px_3px_0_#1C1917] -rotate-3 group-hover:rotate-0 transition-transform duration-500">
-                    <img
-                      src={club.logo}
-                      alt={`${club.name} logo`}
-                      className="w-[84px] h-[84px] sm:w-24 sm:h-24 rounded-xl object-cover"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="min-w-0 flex-1 pt-0.5">
-                    <div className="flex items-center gap-2 mb-1.5">
-                      <span className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-[#C25E42]">
-                        {club.category}
-                      </span>
-                    </div>
-                    <h2 className="font-display font-extrabold text-[22px] leading-tight text-[#1C1917]">
+              <div className="p-5 sm:p-6 flex-1 flex flex-col gap-4">
+                <div className="flex items-center gap-4">
+                  <img
+                    src={club.logo}
+                    alt={`${club.name} logo`}
+                    className="shrink-0 w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-2xl object-cover border-2 border-[#1C1917] shadow-[3px_3px_0_#1C1917] bg-white group-hover:-rotate-3 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <div className="min-w-0">
+                    <span className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-[#C25E42]">
+                      {club.category}
+                    </span>
+                    <h2 className="font-display font-extrabold text-[21px] sm:text-[22px] leading-tight text-[#1C1917] mt-0.5">
                       {club.name}
                     </h2>
-                    <p className="text-[14px] text-[#57534E] leading-relaxed mt-1.5 line-clamp-3">
-                      {club.description}
-                    </p>
                   </div>
                 </div>
+
+                <p className="text-[14.5px] text-[#57534E] leading-relaxed line-clamp-2">{club.description}</p>
 
                 <button
                   onClick={(e) => {
