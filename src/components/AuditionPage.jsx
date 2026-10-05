@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, ArrowUpRight, Clock } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, Lock } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { navigate } from '../router';
 import { AUDITION_FORM_URL } from '../data/links';
@@ -18,31 +18,28 @@ function ApplyButton({ size = 'lg', className = '' }) {
         big ? 'w-full py-4 sm:py-5 text-[16px] sm:text-lg tracking-[0.08em]' : 'px-5 py-2.5 text-[12px] tracking-[0.12em]'
       } ${className}`}
     >
-      {big ? "I'm Ready to Give Audition" : 'Apply'}
+      I'm Ready
       <ArrowUpRight className={`${big ? 'w-5 h-5' : 'w-4 h-4'} group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform`} />
     </a>
   );
 }
 
-function ComingSoon() {
+// Not a link: registrations for this club are closed.
+function RegistrationsClosed() {
   return (
-    <div className="rounded-[20px] border-2 border-dashed border-[#1C1917] bg-[#FCF7ED] px-6 py-7 text-center">
-      <span className="inline-flex items-center gap-2 rounded-full bg-[#1C1917] text-[#FAF8F5] px-4 py-1.5 font-mono text-[11px] font-bold uppercase tracking-[0.2em]">
-        <Clock className="w-3.5 h-3.5" />
-        Coming soon
-      </span>
-      <p className="font-serif text-2xl sm:text-3xl font-semibold text-[#1C1917] mt-4 leading-tight">
-        The registration form is on its way.
-      </p>
-      <p className="text-[14px] text-[#78716C] mt-2 max-w-sm mx-auto leading-relaxed">
-        Follow our Instagram and WhatsApp channels to know the moment it opens.
-      </p>
+    <div
+      role="status"
+      aria-disabled="true"
+      className="w-full rounded-full border-2 border-dashed border-[#1C1917]/40 bg-[#EEE9E3] text-[#78716C] py-4 sm:py-5 font-display font-extrabold uppercase text-[16px] sm:text-lg tracking-[0.08em] inline-flex items-center justify-center gap-2 cursor-not-allowed select-none"
+    >
+      <Lock className="w-5 h-5" />
+      Registrations are closed
     </div>
   );
 }
 
 export default function AuditionPage({ club }) {
-  const { rules = [], formComingSoon } = club.audition;
+  const { rules = [], registrationOpen } = club.audition;
 
   return (
     <div className="flex-1 flex flex-col paper-bg">
@@ -76,7 +73,7 @@ export default function AuditionPage({ club }) {
                 {club.name}
               </h1>
             </div>
-            {!formComingSoon && <ApplyButton size="sm" className="hidden sm:inline-flex self-center" />}
+            {registrationOpen && <ApplyButton size="sm" className="hidden sm:inline-flex self-center" />}
           </div>
 
           {/* Rules — at most six */}
@@ -106,14 +103,14 @@ export default function AuditionPage({ club }) {
 
           {/* CTA */}
           <div className="mt-10 text-center space-y-4">
-            {formComingSoon ? (
-              <ComingSoon />
-            ) : (
+            {registrationOpen ? (
               <>
                 <p className="font-hand text-[26px] text-[#C25E42] -rotate-1">Read it all? Your stage is waiting.</p>
                 <ApplyButton />
                 <p className="font-mono text-[10.5px] uppercase tracking-[0.2em] text-[#A8A29E]">Opens the audition form</p>
               </>
+            ) : (
+              <RegistrationsClosed />
             )}
           </div>
         </motion.div>

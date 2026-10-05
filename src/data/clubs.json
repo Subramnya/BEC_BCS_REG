@@ -1,5 +1,24 @@
 [
   {
+    "id": "bec-gamesmith",
+    "name": "Bec Gamesmith",
+    "category": "Technical",
+    "tagline": "Dedicated to technical excellence.",
+    "logo": "/clubs/bec-gamesmith-logo.jpg",
+    "banner": "/clubs/bec-gamesmith-banner.jpg",
+    "description": "A space for students to enjoy gaming, develop skills, and connect with fellow gamers. The club promotes teamwork, strategy, creativity, and healthy competition through gaming events, tournaments, and fun activities.",
+    "audition": {
+      "rules": [
+        "Open for all. Every gamer is welcome.",
+        "Bring your squad along.",
+        "Struggling with skill issues? Don't worry, we're here to help you level up."
+      ],
+      "registrationOpen": true
+    },
+    "number": 8,
+    "short": "Gaming, tournaments and teamwork. More than a game."
+  },
+  {
     "id": "bec-swara",
     "name": "Bec Swara",
     "category": "Cultural",
@@ -15,7 +34,8 @@
         "Mics are provided if needed; bring your own instrument if you play one.",
         "Karaoke and backing tracks are not permitted.",
         "Plan your piece so it fits comfortably in the time limit."
-      ]
+      ],
+      "registrationOpen": false
     },
     "number": 1,
     "short": "The music club: sing, play and perform live."
@@ -36,7 +56,8 @@
         "Respect the club's rules, values and discipline.",
         "Show your energy, attitude and confidence.",
         "Be on time: reach the audition room at least 30 minutes early."
-      ]
+      ],
+      "registrationOpen": false
     },
     "bannerFallback": {
       "number": "02",
@@ -63,7 +84,8 @@
         "Focus on expressions, voice and body language. No acting experience needed.",
         "Be punctual. The panel selects on performance and role suitability.",
         "Selected members must attend regular rehearsals."
-      ]
+      ],
+      "registrationOpen": false
     },
     "number": 3,
     "short": "Drama and acting: stories, characters and stage performances."
@@ -84,7 +106,8 @@
         "Spontaneous round: respond to a surprise situation on the spot.",
         "Scored out of 60 on voice, confidence, communication, creativity, spontaneity and potential.",
         "Be punctual, keep phones silent and respect everyone. The panel's decision is final."
-      ]
+      ],
+      "registrationOpen": false
     },
     "number": 4,
     "short": "Campus radio and podcasts: voices beyond borders."
@@ -105,7 +128,8 @@
         "Royal Rumble: answer MCQs to earn coins, then attack other players and defend yourself.",
         "Everyone starts with 3 lives. Lose all three and you're out; the last player standing wins.",
         "Work independently. No outside help unless it's specifically allowed."
-      ]
+      ],
+      "registrationOpen": false
     },
     "number": 5,
     "short": "Learn, code and build real projects together."
@@ -126,7 +150,8 @@
         "The interview looks at your interest, problem-solving, willingness to learn and teamwork.",
         "Previous robotics experience is not required. Just be honest about what you know.",
         "Final selection is based on your overall performance in both rounds."
-      ]
+      ],
+      "registrationOpen": false
     },
     "number": 6,
     "short": "Build robots, drones and real working machines."
@@ -147,28 +172,10 @@
         "Photos in JPG/PNG, videos in MP4, uploaded to Google Drive with “Anyone with the link can view”.",
         "One submission per person. No stock, plagiarised or AI-generated work.",
         "Work is judged on creativity, composition, storytelling and technique; shortlisted candidates will be contacted."
-      ]
+      ],
+      "registrationOpen": false
     },
     "number": 7,
     "short": "Photography and videography: capture, create, tell."
-  },
-  {
-    "id": "bec-gamesmith",
-    "name": "Bec Gamesmith",
-    "category": "Technical",
-    "tagline": "Dedicated to technical excellence.",
-    "logo": "/clubs/bec-gamesmith-logo.jpg",
-    "banner": "/clubs/bec-gamesmith-banner.jpg",
-    "description": "A space for students to enjoy gaming, develop skills, and connect with fellow gamers. The club promotes teamwork, strategy, creativity, and healthy competition through gaming events, tournaments, and fun activities.",
-    "audition": {
-      "rules": [
-        "Open for all. Every gamer is welcome.",
-        "Bring your squad along.",
-        "Struggling with skill issues? Don't worry, we're here to help you level up."
-      ],
-      "formComingSoon": true
-    },
-    "number": 8,
-    "short": "Gaming, tournaments and teamwork. More than a game."
   }
 ]
